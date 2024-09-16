@@ -8,9 +8,9 @@ The goal is to automate web scraping and extracting useful information from webs
 
 **Methods Used**  
 The following techniques are employed in this project:  
-o Data collection: Collecting HTML content from web pages.  
-o Content Transformation: Parsing and extracting content using tools like BeautifulSoup and LangChain's transformers.  
-o Automated Research: Utilizing OpenAI models for automated content extraction and web research.
+o Search: Query to url (e.g., using GoogleSearchAPIWrapper).  
+o Loading: Url to HTML (e.g., using AsyncHtmlLoader, AsyncChromiumLoader, etc).  
+o Transforming: HTML to formatted text (e.g., using HTML2Text or Beautiful Soup).  
 
 **Technologies Utilized**  
 o Python  
